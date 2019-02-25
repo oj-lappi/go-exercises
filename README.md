@@ -12,6 +12,8 @@ Utgå från filen städer.go
 2. Skriv ut namnen på alla städer, när programmet skriver ut Åbo, skriv också ut något annat (valfri text)
 3. Skriv ut namnen på städerna i alfabetisk ordning
 
+   tips: import "sort"
+
 4. Skriv om uppgift 3 så att programmet skriver ut alla _argument_ som programmet får i alfabetisk ordning
 
    tips: import "os"
