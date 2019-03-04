@@ -21,7 +21,6 @@ Utgå från filen städer.go
 
 Utgå från filen läs_input.go
 
-<<<<<<< HEAD
 6. Skriv ett program som ber om ett namn av användaren och skriver ut ```"Hej <namn>"```
 7. Skriv ett program som tar in ett namn och skriver ut ```"<namnet baklänges> jeH"```
 8. Skriv ett program som tar in många namn och skriver ut ```"Hej <namn> och <namn> och <namn> och <namn>"```
