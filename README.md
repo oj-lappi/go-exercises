@@ -2,7 +2,7 @@
 
 Spara alla uppgifter som uppgift1.go, uppgift2.go... osv.
 
-0. Skriv ett program som tar in ett namn som argument och skriver ut "Hej <namn>"
+0. Skriv ett program som tar in ett namn som argument och skriver ut ```"Hej <namn>"```
    tips: import "os"
   
 Utgå från filen städer.go
@@ -17,9 +17,9 @@ Utgå från filen städer.go
 
 Utgå från filen läs_input.go
 
-6. Skriv ett program som ber om ett namn av användaren och skriver ut "Hej <namn>"
-7. Skriv ett program som tar in ett namn och skriver ut "<namnet baklänges> jeH"
-8. Skriv ett program som tar in många namn och skriver ut "Hej <namn> och <namn> och <namn> och <namn>"
+6. Skriv ett program som ber om ett namn av användaren och skriver ut ```"Hej <namn>"```
+7. Skriv ett program som tar in ett namn och skriver ut ```"<namnet baklänges> jeH"```
+8. Skriv ett program som tar in många namn och skriver ut ```"Hej <namn> och <namn> och <namn> och <namn>"```
    tips: spara namnen i en slice (lista). Kolla t.ex. på städer.go
    tips: använd en loop och avsluta loopen när du inte får in namn mera
 9. Skriv ett program som tar in många strängar, eller namn och printar ut dem i alfabetisk ordning
