@@ -3,6 +3,9 @@
 Samma uppgifter som i README minus de som behöver argument (behöver en terminal)
 
 Utgå från filen städer.go för följande uppgifter
+-----------------------------------------------
+
+Exempel finns på https://tour.golang.org/moretypes/16
 
   1. Skriv ut namnen på alla städer. En stad per rad.
 
@@ -14,6 +17,7 @@ Utgå från filen städer.go för följande uppgifter
    
 
 Utgå från filen träd.go för följande uppgifter
+---------------------------------------------
 
 Läs:
 https://tour.golang.org/moretypes/2
