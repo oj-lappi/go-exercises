@@ -10,7 +10,9 @@ Exempel finns på https://tour.golang.org/moretypes/16
   1. Skriv ut namnen på alla städer. En stad per rad.
 
   2. Skriv ut namnen på alla städer, när programmet skriver ut Åbo, skriv också ut något annat (valfri text)
-
+  
+    if-sats: https://tour.golang.org/flowcontrol/5
+  
   3. Skriv ut namnen på städerna i alfabetisk ordning
 
    tips: import "sort"
