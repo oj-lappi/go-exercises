@@ -1,0 +1,27 @@
+# Uppgifter som går att göra på playground
+
+Samma uppgifter som i README minus de som behöver argument (behöver en terminal)
+
+Utgå från filen städer.go för följande uppgifter
+
+  1. Skriv ut namnen på alla städer. En stad per rad.
+
+  2. Skriv ut namnen på alla städer, när programmet skriver ut Åbo, skriv också ut något annat (valfri text)
+
+  3. Skriv ut namnen på städerna i alfabetisk ordning
+
+   tips: import "sort"
+   
+
+Utgå från filen läs_input.go för följande uppgifter
+
+  4. Skriv ett program som ber om ett namn av användaren och skriver ut "Hej <namn>"
+
+  5. Skriv ett program som läser in ett namn och skriver ut "<namnet baklänges> jeH"
+
+  6. Skriv ett program som läser in många namn och skriver ut "Hej <namn> och <namn> och <namn> och <namn>" tips: spara namnen i en slice (lista). Kolla t.ex. på städer.go tips: använd en loop och avsluta loopen när du inte får in namn mera
+
+  7. Skriv ett program som läser in många strängar, eller namn och printar ut dem i alfabetisk ordning
+
+     tips: kombinera uppgifterna 3 och 6
+
