@@ -20,10 +20,11 @@ Utgå från filen träd.go för följande uppgifter
 ---------------------------------------------
 
 Läs:
-https://tour.golang.org/moretypes/2
-https://tour.golang.org/moretypes/3
-https://tour.golang.org/moretypes/5
-https://tour.golang.org/moretypes/9
+
+ - https://tour.golang.org/moretypes/2
+ - https://tour.golang.org/moretypes/3
+ - https://tour.golang.org/moretypes/5
+ - https://tour.golang.org/moretypes/9
 
 för att förstå hur structs och listor (slices) fungerar
 
