@@ -33,7 +33,7 @@ Du behöver en rekursiv funktion för att lösa uppgiften. Du kan försöka goog
      som visar att noden ligger på ett visst djup. Du kan också använda - eller *  
      
      Alltså, t.ex.:
-     
+     ```
      handel och data:
        - datanom:
          - data18
@@ -45,5 +45,6 @@ Du behöver en rekursiv funktion för att lösa uppgiften. Du kan försöka goog
          - mera18
          - mer17
          - mer16
+      ```
 
   5. Som 4, men skriv ut till höger om namnet hur många studeranden det finns i noden
