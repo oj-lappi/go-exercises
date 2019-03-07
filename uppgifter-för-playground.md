@@ -33,6 +33,8 @@ för att förstå hur structs och listor (slices) fungerar
 
 Du behöver en rekursiv funktion för att lösa uppgiften. Du kan försöka googla och söka efter en lösning.
 
+struct-exempel från timmen: https://play.golang.org/p/c5nwBY3q28a
+
   4. Skriv ett program som skriver ut trädet, skriv ut varje node med ett antal mellanslag (" ") eller tabs ("\t")
      som visar att noden ligger på ett visst djup. Du kan också använda - eller *  
      
