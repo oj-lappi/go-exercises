@@ -12,14 +12,16 @@ tips: stigen kommer du åt via http.Request.URL.Path (variabeln r i vårt exempe
 
 ## 2.3. Skriv en webbserver som servar filen index.html
 
-tips: paketet ioutil innehåller en funktion ReadFile läser en fil från filsystemet och returnerar en sträng och ett error (om något gått fel)
+tips: paketet ioutil innehåller en funktion ReadFile läser en fil från filsystemet och returnerar en ```[]byte``` och ett error (om något gått fel)
 
 exempel:
 	
 	//Läser filen fil.txt in i variabeln text
 	text,err := ioutil.ReadFile("fil.txt")
 	
-Minns att alla variabler du deklarerar måste användas. Om du inte vill använda errorn kan du skriva _ istället
+Minns att alla variabler du deklarerar måste användas. Om du inte vill använda errorn kan du skriva _ istället.
+
+Du måste "casta" (omvandla) ```[]byte``` till en sträng med funktionen string()
 
 ## 2.4. Skriv en ny endpoint till webbservern från uppgift 3. Enpointen ska heta "/hund" och ska serva filen hund.jpeg
 
