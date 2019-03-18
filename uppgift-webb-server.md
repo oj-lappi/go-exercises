@@ -15,11 +15,11 @@ tips: stigen kommer du åt via http.Request.URL.Path (variabeln r i vårt exempe
 tips: paketet ioutil innehåller en funktion ReadFile läser en fil från filsystemet och returnerar en sträng och ett error (om något gått fel)
 
 exempel:
-	```
+	
 	//Läser filen fil.txt in i variabeln text
 	text,err := ioutil.ReadFile("fil.txt")
-	```
-	Minns att alla variabler du deklarerar måste användas. Om du inte vill använda errorn kan du skriva _ istället
+	
+Minns att alla variabler du deklarerar måste användas. Om du inte vill använda errorn kan du skriva _ istället
 
 ## 2.4. Skriv en ny endpoint till webbservern från uppgift 3. Enpointen ska heta "/hund" och ska serva filen hund.jpeg
 
@@ -36,11 +36,11 @@ I go kan du ändra på en http-header genom http.ResponseWriterns Header().Set()
 
 Exempel:
 
-	```
+	
 	//använder w som vår ResponseWriter hette i exempelfilen webbserver.go
 	//Ändrar filtypen till webm
 	w.Header().Set("Content-Type","video/webm")
-	```
+	
 
 ## 2.5. Skriv en ny webbserver som servar filer från den katalog du kör den från. 
 
