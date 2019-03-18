@@ -12,7 +12,7 @@ tips: stigen kommer du åt via http.Request.URL.Path (variabeln r i vårt exempe
 
 ## 2.3. Skriv en webbserver som servar filen index.html
 
-tips: paketet ioutil innehåller en funktion ReadFile läser en fil från filsystemet och returnerar en ```[]byte``` och ett error (om något gått fel)
+tips: paketet io/ioutil innehåller en funktion ReadFile läser en fil från filsystemet och returnerar en ```[]byte``` och ett error (om något gått fel)
 
 exempel:
 	
