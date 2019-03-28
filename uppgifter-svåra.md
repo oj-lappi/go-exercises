@@ -4,6 +4,7 @@ En rekursiv funktioninnehåller:
 
  - ett basfall, något som stoppar den. I vårt exempel ```if len(indentering) == 10```
  - ett kall till den rekursiva funktionen (ett kall till sig själv)
+ - någonting ska förändras för varje kall, så att basfallet kan nås
 
 Utgående från detta, skriv en rekursiv funktion som räknar ut fibonaccis talföljd, som slutar efter x gånger (du kan ge x in som ett argument).
 
