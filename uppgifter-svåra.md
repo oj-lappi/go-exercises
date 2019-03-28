@@ -12,7 +12,7 @@ Utgående från detta, skriv en rekursiv funktion som räknar ut fibonaccis talf
 Fibonaccis talföljd är nästa tal summan av de två förra talen:
 
 0
-1  = 0
+1 
 1  = 1+0
 2  = 1+1
 3  = 2+1
